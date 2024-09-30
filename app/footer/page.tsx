@@ -6,7 +6,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <div className="flex flex-col items-center p-4">
-      <h1 className="text-4xl">Home Page</h1>
+      <h1 className="text-4xl">Footer Page</h1>
       <div className="grid grid-cols-2 gap-4 mt-4">
         <Link href={"/navbar"} className="p-4 bg-white border-2  border-gray-300 rounded-md">
           Navbar
